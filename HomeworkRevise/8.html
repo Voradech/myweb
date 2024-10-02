@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .element1{
+            position: relative;
+            background: hsl(282, 40%, 49%);
+            width: 150px;
+            height: 100px;
+        }
+        .element2{
+            position: absolute;
+            visibility: hidden;
+            left: 100%;
+            background: rgb(243, 190, 220);
+            color: white;
+            padding: 16px;
+        }
+         .element1:hover > .element2{
+            visibility: visible;
+         }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8</title>
+</head>
+<body>
+    <div class="element1" tabindex="0">
+    <div class="element2">w3resource Popout menu</div>
+    
+</body>
+</html>

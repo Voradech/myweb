@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        .hover-nav .buttonn {
+            float: left;
+        }
+
+        .hover-nav .buttonn a {
+            position: relative;
+            display: block;
+            color: #000000;
+            text-align: center;
+            padding: 8px 12px;
+            text-decoration: none;
+            z-index: 0;
+        }
+
+        .buttonn a::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            left: 0;
+            background-color: #c3672a;
+            z-index: -1;
+            transform: scale(0);
+            transition: transform 0.5s ease-in-out;
+    }
+
+        .buttonn a:hover::before,
+        .buttonn a:focus::before {
+            transform: scale(1);
+    }   
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+</head>
+<body>
+    <strong>Preview: </strong>
+    <br>
+    <div class="hover-nav">
+        
+          <div class="buttonn"><a href="4">Home</a></div>
+          <div class="buttonn"><a href="4">About</a></div>
+          <div class="buttonn"><a href="">Contact</a></div>
+        
+      </div>
+    
+</body>
+</html>

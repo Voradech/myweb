@@ -1,0 +1,60 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+    /* font-family:'Allenia',sans-serif ; */
+    background-color: rgb(244, 232, 210);
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat.woff2') format('woff2'),
+         url('fonts/Montserrat.woff') format('woff');
+         
+ 
+    
+}
+a.signup{
+    color:black;
+}
+input.textb{
+    border-radius: 15px;
+    border:solid 1px rgb(255, 255, 255);
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+h1{
+    
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+}
+a.sign{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    text-decoration: underline;
+    
+}
+div.borderforsignup{
+    text-transform: uppercase;
+    background-color: wheat;
+    /* border:solid 1px grey; */
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 200px;
+    
+
+}
+input.submit{  /* ปุ่ม sign up */
+    background-color: rgb(244, 232, 210);
+    width: 350px;
+    height: 40px;
+    border: 1px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    
+}
+td.class{
+    margin-bottom: 2px;
+}
